@@ -1,0 +1,76 @@
+Medication Neuron Atlas Data — Licensing and Attribution Notices
+================================================================
+
+Copyright (c) 2026 Pereste Health, Inc. (Parker Smith)
+
+1. Original Compilation, Statistics, Metadata, and Written Descriptions (CC BY 4.0)
+-----------------------------------------------------------------------------------
+All original material in this repository — including the selection metadata, firing-rate
+tables, token-type and section counts, reliability scores, and written unit descriptions
+("cards") — is licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+You are free to share (copy and redistribute the material in any medium or format) and
+adapt (remix, transform, and build upon the material for any purpose, even commercially)
+under the following terms:
+
+- Attribution: You must give appropriate credit to Pereste Health, Inc. / Parker Smith
+  ("A feed-forward neuron atlas of medication text in Qwen3-8B"), provide a link to the
+  license (https://creativecommons.org/licenses/by/4.0/), and indicate if changes were
+  made. You may do so in any reasonable manner, but not in any way that suggests the
+  licensor endorses you or your use.
+- No additional restrictions: You may not apply legal terms or technological measures
+  that legally restrict others from doing anything the license permits.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+
+2. General Web Text Excerpts — FineWeb-Edu Attribution (ODC-By 1.0)
+-------------------------------------------------------------------
+Short context windows from general educational web text included in unit files (`u/`)
+for contrast (`general_text`) are excerpted from the FineWeb-Edu dataset:
+
+  Contains information from FineWeb-Edu (HuggingFaceFW/fineweb-edu), which is made
+  available by the FineWeb authors under the Open Data Commons Attribution License v1.0
+  (ODC-By 1.0): https://opendatacommons.org/licenses/by/1-0/
+
+Citation:
+  Penedo G, Kydlíček H, Ben Allal L, Lozhkov A, Mitchell M, Raffel C, Von Werra L,
+  Wolf T. The FineWeb datasets: decanting the web for the finest text data at scale.
+  Advances in Neural Information Processing Systems 37 (NeurIPS 2024 Datasets and
+  Benchmarks Track); 2024. p. 30811-30849. https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+
+Underlying web crawls originate from Common Crawl and remain subject to Common Crawl's
+Terms of Use (https://commoncrawl.org/terms-of-use) and any applicable rights in the
+individual source web pages.
+
+
+3. Prescription Drug Label Excerpts — openFDA Public Domain Notice
+------------------------------------------------------------------
+Prescription drug label excerpts and established pharmacologic class mappings are derived
+from United States Food and Drug Administration (FDA) Structured Product Labeling via
+openFDA (https://open.fda.gov/apis/drug/label/; https://open.fda.gov/license/):
+
+  openFDA data are United States Government public-domain / CC0 1.0 Universal records.
+  Use of openFDA data in this repository does not imply endorsement by the U.S. Food and
+  Drug Administration or the U.S. Department of Health and Human Services. Do not rely on
+  openFDA or this dataset to make decisions regarding medical care.
+
+Citation:
+  Kass-Hout TA, Xu Z, Mohebbi M, Nelsen H, Baker A, Levine J, et al. OpenFDA: an
+  innovative platform providing access to a wealth of FDA's publicly available data.
+  J Am Med Inform Assoc. 2016;23(3):596-600. doi:10.1093/jamia/ocv153
+
+
+4. Model Notice
+---------------
+Neuron activations and logit-lens vocabulary projections were computed on Qwen/Qwen3-8B,
+released by the Qwen Team under the Apache License, Version 2.0
+(https://www.apache.org/licenses/LICENSE-2.0; Yang et al., arXiv:2505.09388).
+
+
+5. Disclaimer of Warranty and Clinical Use Notice
+-------------------------------------------------
+THIS DATASET IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+IT DESCRIBES INTERNAL COMPUTATIONS OF A LANGUAGE MODEL ON TEXT AND IS NOT MEDICAL ADVICE
+OR GUIDANCE FOR PATIENT CARE.
